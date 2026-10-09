@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#fff3c4"/>
+      <stop offset="0.25" stop-color="#e8c068"/>
+      <stop offset="0.5" stop-color="#a8741e"/>
+      <stop offset="0.65" stop-color="#f6d98a"/>
+      <stop offset="0.85" stop-color="#8a5a14"/>
+      <stop offset="1" stop-color="#e8c068"/>
+    </linearGradient>
+    <radialGradient id="b" cx="0.5" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#2a1d12"/>
+      <stop offset="1" stop-color="#070505"/>
+    </radialGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#b)" stroke="#3a2a1c" stroke-width="2"/>
+  <text x="33" y="47" text-anchor="middle" font-family="'EB Garamond', Garamond, Georgia, serif" font-style="italic" font-weight="500" font-size="44" fill="url(#g)">F</text>
+</svg>

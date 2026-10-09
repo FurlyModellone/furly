@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en" data-lang="en"
+  data-title-en="Furly — tools for studying and writing, on your own machine"
+  data-title-it="Furly — strumenti per studiare e scrivere, sul tuo computer">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Furly — tools for studying and writing, on your own machine</title>
+  <meta name="description" content="Furly makes Sheng, private dictation and transcription that runs on your PC, and Xue, one place for your university courses on computer, iPhone and iPad.">
+  <link rel="canonical" href="https://furly.dev/">
+  <meta name="theme-color" content="#070505">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://furly.dev/">
+  <meta property="og:title" content="Furly">
+  <meta property="og:description" content="Sheng and Xue: tools for studying and writing that stay on your own machine.">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <script>try{var l=localStorage.getItem('furly-lang')||((navigator.language||'').toLowerCase().indexOf('it')===0?'it':'en');document.documentElement.setAttribute('data-lang',l);document.documentElement.lang=l}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..600;1,400..600&family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&display=swap&text=%E5%A3%B0%E5%AD%A6%E9%BE%8D%E4%B8%80%E4%BA%8C%E4%B8%89%E5%9B%9B%E4%BA%94%E5%85%AD">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="/" data-egg aria-label="Furly"><span class="gold">Furly</span></a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="/sheng/">Sheng</a>
+      <a href="/xue/">Xue</a>
+      <a class="hide-sm" href="#about"><span lang="en">About</span><span lang="it">Chi sono</span></a>
+      <a class="hide-sm" href="#contact"><span lang="en">Contact</span><span lang="it">Contatti</span></a>
+      <span class="lang" role="group" aria-label="Language">
+        <button type="button" data-set="en" aria-pressed="true">EN</button>
+        <button type="button" data-set="it" aria-pressed="false">IT</button>
+      </span>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-copy">
+        <p class="eyebrow">Furly · furly.dev</p>
+        <h1>
+          <span lang="en">Tools for studying and writing, <em class="gold">kept on your own machine.</em></span>
+          <span lang="it">Strumenti per studiare e scrivere, <em class="gold">che restano sul tuo computer.</em></span>
+        </h1>
+        <p class="lead">
+          <span lang="en">Two apps that work together: Sheng turns your voice and your lectures into text, Xue keeps every course in order. Your audio is never stored, and your files stay in your own folders.</span>
+          <span lang="it">Due app che lavorano insieme: Sheng trasforma la tua voce e le lezioni in testo, Xue tiene in ordine ogni corso. L'audio non viene mai salvato e i file restano nelle tue cartelle.</span>
+        </p>
+        <div class="actions">
+          <a class="btn btn-gold" href="#apps"><span lang="en">See the apps</span><span lang="it">Guarda le app</span></a>
+          <a class="btn" href="#contact"><span lang="en">Get in touch</span><span lang="it">Scrivimi</span></a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="glyphs">
+          <figure class="glyph-col"><div class="glyph" data-egg><span class="vessel">声</span><span class="liquid">声</span></div><figcaption>shēng</figcaption></figure>
+          <figure class="glyph-col"><div class="glyph" data-egg><span class="vessel">学</span><span class="liquid">学</span></div><figcaption>xué</figcaption></figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section id="apps">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow"><span lang="en">The apps</span><span lang="it">Le app</span></p>
+        <h2>
+          <span lang="en">A voice, and <em class="gold">a place to learn.</em></span>
+          <span lang="it">Una voce, e <em class="gold">un posto per imparare.</em></span>
+        </h2>
+      </div>
+
+      <div class="products">
+        <a class="card reveal" href="/sheng/">
+          <div class="card-top">
+            <img src="/assets/sheng.png" alt="" width="64" height="64">
+            <div>
+              <h3 class="gold">Sheng</h3>
+              <span class="pinyin"><span lang="en">声 · voice, sound</span><span lang="it">声 · voce, suono</span></span>
+            </div>
+          </div>
+          <p>
+            <span lang="en">Dictation for your PC. Press a shortcut in any window, speak, and the text lands where you were typing. It also transcribes audio and video files, even lectures hours long.</span>
+            <span lang="it">Dettatura per il PC. Premi una scorciatoia in qualsiasi finestra, parli, e il testo arriva dove stavi scrivendo. Trascrive anche file audio e video, persino lezioni di ore.</span>
+          </p>
+          <ul>
+            <li><span lang="en">Runs Whisper locally on NPU, GPU or CPU</span><span lang="it">Whisper in locale, su NPU, GPU o CPU</span></li>
+            <li><span lang="en">Audio is never saved</span><span lang="it">L'audio non viene mai salvato</span></li>
+            <li><span lang="en">Searchable archive of everything you dictated</span><span lang="it">Archivio delle dettature, con la ricerca</span></li>
+          </ul>
+          <div class="tags"><span class="tag beta"><span lang="en">Private beta</span><span lang="it">Beta privata</span></span><span class="tag">Windows</span><span class="tag">Linux</span></div>
+          <span class="more"><span lang="en">Discover Sheng →</span><span lang="it">Scopri Sheng →</span></span>
+        </a>
+
+        <a class="card reveal" href="/xue/">
+          <div class="card-top">
+            <img src="/assets/xue.png" alt="" width="64" height="64">
+            <div>
+              <h3 class="gold">Xue</h3>
+              <span class="pinyin"><span lang="en">学 · to study, to learn</span><span lang="it">学 · studiare, imparare</span></span>
+            </div>
+          </div>
+          <p>
+            <span lang="en">Your university in one place: every course with its folders, links, exam info, lecture videos with the transcript alongside, and handwritten notes linked to the recording.</span>
+            <span lang="it">L'università in un posto solo: ogni corso con le sue cartelle, i link, com'è fatto l'esame, le videolezioni con la trascrizione accanto e gli appunti a mano collegati alla registrazione.</span>
+          </p>
+          <ul>
+            <li><span lang="en">Notebooks with Apple Pencil, recording and replay</span><span lang="it">Quaderni con Apple Pencil, registrazione e riascolto</span></li>
+            <li><span lang="en">Lecture summaries written by the AI you choose</span><span lang="it">Riassunti delle lezioni scritti dall'IA che scegli</span></li>
+            <li><span lang="en">Encrypted sync between your devices, no cloud</span><span lang="it">Sincronizzazione cifrata fra i dispositivi, senza cloud</span></li>
+          </ul>
+          <div class="tags"><span class="tag beta"><span lang="en">Private beta</span><span lang="it">Beta privata</span></span><span class="tag">Windows</span><span class="tag">Linux</span><span class="tag">iPhone</span><span class="tag">iPad</span></div>
+          <span class="more"><span lang="en">Discover Xue →</span><span lang="it">Scopri Xue →</span></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow"><span lang="en">How we build</span><span lang="it">Come le costruisco</span></p>
+        <h2>
+          <span lang="en">Three rules, <em class="gold">no exceptions.</em></span>
+          <span lang="it">Tre regole, <em class="gold">senza eccezioni.</em></span>
+        </h2>
+      </div>
+      <div class="pillars reveal">
+        <div class="pillar">
+          <span class="num gold">一</span>
+          <h3><span lang="en">It runs on your machine</span><span lang="it">Gira sul tuo computer</span></h3>
+          <p>
+            <span lang="en">Sheng transcribes with Whisper on your own NPU, GPU or CPU. Your voice doesn't go to anyone's server, and the audio is gone as soon as the text is ready.</span>
+            <span lang="it">Sheng trascrive con Whisper sulla tua NPU, GPU o CPU. La tua voce non va sul server di nessuno e l'audio sparisce appena il testo è pronto.</span>
+          </p>
+        </div>
+        <div class="pillar">
+          <span class="num gold">二</span>
+          <h3><span lang="en">Your folders, not our cloud</span><span lang="it">Le tue cartelle, non il nostro cloud</span></h3>
+          <p>
+            <span lang="en">In Xue a course is just a folder. Its data lives in a small file inside it, so it travels with the folder: to OneDrive, to another PC, anywhere.</span>
+            <span lang="it">In Xue un corso è semplicemente una cartella. I suoi dati stanno in un piccolo file al suo interno e viaggiano con lei: su OneDrive, su un altro PC, ovunque.</span>
+          </p>
+        </div>
+        <div class="pillar">
+          <span class="num gold">三</span>
+          <h3><span lang="en">Built to work together</span><span lang="it">Fatte per lavorare insieme</span></h3>
+          <p>
+            <span lang="en">Drop a lecture into Xue and Sheng transcribes it. The transcript comes back next to the video, with the sentence you're hearing highlighted.</span>
+            <span lang="it">Metti una lezione in Xue e Sheng la trascrive. La trascrizione torna accanto al video, con la frase che stai ascoltando evidenziata.</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section id="about" class="about">
+    <div class="wrap">
+      <div class="section-head reveal" style="margin:0">
+        <p class="eyebrow"><span lang="en">About</span><span lang="it">Chi sono</span></p>
+        <h2>
+          <span lang="en">Made by a student, <em class="gold">for students.</em></span>
+          <span lang="it">Fatte da uno studente, <em class="gold">per gli studenti.</em></span>
+        </h2>
+      </div>
+      <div class="about-text reveal">
+        <p>
+          <span lang="en">I'm <strong>Mattia</strong>, a university student in Italy and the founder of Furly. I build the tools I wished I had for my own courses: dictation that doesn't send my voice anywhere, and one place for slides, lecture videos and handwritten notes.</span>
+          <span lang="it">Sono <strong>Mattia</strong>, studente universitario e fondatore di Furly. Costruisco gli strumenti che avrei voluto avere per i miei corsi: una dettatura che non manda la mia voce da nessuna parte, e un posto unico per slide, videolezioni e appunti a mano.</span>
+        </p>
+        <p>
+          <span lang="en">I use them every day, so every feature has to survive a real semester before it ships.</span>
+          <span lang="it">Le uso ogni giorno, quindi ogni funzione deve superare un semestre vero prima di uscire.</span>
+        </p>
+        <p class="signature gold">Mattia</p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section id="contact" class="contact">
+    <div class="wrap reveal">
+      <p class="eyebrow"><span lang="en">Contact</span><span lang="it">Contatti</span></p>
+      <h2>
+        <span lang="en">The apps are in <em class="gold">private beta.</em></span>
+        <span lang="it">Le app sono in <em class="gold">beta privata.</em></span>
+      </h2>
+      <p class="lead" style="margin-inline:auto">
+        <span lang="en">Want to try Sheng or Xue, or just talk? Write to me directly.</span>
+        <span lang="it">Vuoi provare Sheng o Xue, o solo parlarne? Scrivimi direttamente.</span>
+      </p>
+      <a class="mail gold" href="mailto:mattia@furly.dev">mattia@furly.dev</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Furly · furly.dev</span>
+    <nav aria-label="Footer">
+      <a href="/sheng/">Sheng</a>
+      <a href="/xue/">Xue</a>
+      <a href="mailto:mattia@furly.dev"><span lang="en">Contact</span><span lang="it">Contatti</span></a>
+    </nav>
+  </div>
+</footer>
+
+<div class="egg" id="egg" role="dialog" aria-label="Easter egg">
+  <blockquote>
+    <span class="dragon gold">龍</span>
+    <span class="gold">You met me at a very Chinese time in my life.</span>
+  </blockquote>
+</div>
+
+<script src="/assets/site.js" defer></script>
+</body>
+</html>

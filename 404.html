@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en" data-lang="en" data-title-en="Lost · Furly" data-title-it="Perso · Furly">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lost · Furly</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#070505">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <script>try{var l=localStorage.getItem('furly-lang')||((navigator.language||'').toLowerCase().indexOf('it')===0?'it':'en');document.documentElement.setAttribute('data-lang',l);document.documentElement.lang=l}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..600;1,400..600&family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&display=swap&text=%E9%BE%8D">
+  <link rel="stylesheet" href="/assets/style.css">
+  <style>
+    main { min-height: calc(100vh - 64px); display: grid; place-items: center; text-align: center; padding: 48px 0; }
+    .lost { display: grid; gap: 28px; justify-items: center; }
+    .lost .dragon { font: 900 clamp(96px, 16vw, 180px)/1 var(--han); filter: drop-shadow(0 0 22px rgba(212, 162, 76, 0.3)); }
+    .lost blockquote { margin: 0; max-width: 16ch; font: italic 500 clamp(32px, 5.4vw, 60px)/1.1 var(--serif); font-feature-settings: 'swsh' 1; }
+  </style>
+</head>
+<body>
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="Furly"><span class="gold">Furly</span></a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="/sheng/">Sheng</a>
+      <a href="/xue/">Xue</a>
+      <span class="lang" role="group" aria-label="Language">
+        <button type="button" data-set="en" aria-pressed="true">EN</button>
+        <button type="button" data-set="it" aria-pressed="false">IT</button>
+      </span>
+    </nav>
+  </div>
+</header>
+<main>
+  <div class="wrap lost">
+    <span class="dragon gold" aria-hidden="true">龍</span>
+    <blockquote class="gold">You met me at a very Chinese time in my life.</blockquote>
+    <p class="muted">
+      <span lang="en">404: this page doesn't exist, but the dragon was here anyway.</span>
+      <span lang="it">404: questa pagina non esiste, ma il drago c'era lo stesso.</span>
+    </p>
+    <a class="btn btn-gold" href="/"><span lang="en">Back home</span><span lang="it">Torna alla home</span></a>
+  </div>
+</main>
+<script src="/assets/site.js" defer></script>
+</body>
+</html>

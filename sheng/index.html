@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en" data-lang="en"
+  data-title-en="Sheng — private dictation and transcription · Furly"
+  data-title-it="Sheng — dettatura e trascrizione private · Furly">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sheng — private dictation and transcription · Furly</title>
+  <meta name="description" content="Sheng is dictation for your PC: press a shortcut in any window, speak, and the text lands where you were typing. Whisper runs locally on NPU, GPU or CPU; audio is never saved.">
+  <link rel="canonical" href="https://furly.dev/sheng/">
+  <meta name="theme-color" content="#070505">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://furly.dev/sheng/">
+  <meta property="og:title" content="Sheng · Furly">
+  <meta property="og:description" content="Private dictation and transcription that runs on your PC.">
+  <meta property="og:image" content="https://furly.dev/assets/sheng.png">
+  <link rel="icon" type="image/png" href="/assets/sheng.png">
+  <script>try{var l=localStorage.getItem('furly-lang')||((navigator.language||'').toLowerCase().indexOf('it')===0?'it':'en');document.documentElement.setAttribute('data-lang',l);document.documentElement.lang=l}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..600;1,400..600&family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&display=swap&text=%E5%A3%B0%E5%AD%A6%E9%BE%8D%E4%B8%80%E4%BA%8C%E4%B8%89%E5%9B%9B%E4%BA%94%E5%85%AD">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="Furly"><span class="gold">Furly</span></a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="/sheng/" aria-current="page">Sheng</a>
+      <a href="/xue/">Xue</a>
+      <a class="hide-sm" href="/#contact"><span lang="en">Contact</span><span lang="it">Contatti</span></a>
+      <span class="lang" role="group" aria-label="Language">
+        <button type="button" data-set="en" aria-pressed="true">EN</button>
+        <button type="button" data-set="it" aria-pressed="false">IT</button>
+      </span>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero app-hero">
+    <div class="wrap">
+      <img class="icon" src="/assets/sheng.png" alt="Sheng" width="200" height="200">
+      <div class="copy">
+        <p class="eyebrow">Sheng 声 · <span lang="en">voice</span><span lang="it">voce</span></p>
+        <h1>
+          <span lang="en">Speak anywhere. <em class="gold">The words stay with you.</em></span>
+          <span lang="it">Parla ovunque. <em class="gold">Le parole restano tue.</em></span>
+        </h1>
+        <p class="lead" style="max-width:52ch">
+          <span lang="en">Press <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>D</kbd> in any window, talk, press again: the text appears where you were typing. Whisper runs on your own computer, so your voice never leaves it.</span>
+          <span lang="it">Premi <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>D</kbd> in qualsiasi finestra, parla, premi di nuovo: il testo compare dove stavi scrivendo. Whisper gira sul tuo computer, quindi la tua voce non esce mai da lì.</span>
+        </p>
+        <div class="platforms"><span class="tag beta"><span lang="en">Private beta</span><span lang="it">Beta privata</span></span><span class="tag">Windows</span><span class="tag">Linux</span></div>
+        <div class="actions">
+          <a class="btn btn-gold" href="mailto:mattia@furly.dev?subject=Sheng%20beta"><span lang="en">Ask for access</span><span lang="it">Chiedi l'accesso</span></a>
+          <a class="btn" href="#engine"><span lang="en">How it runs</span><span lang="it">Come funziona</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section>
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow"><span lang="en">Dictation</span><span lang="it">Dettatura</span></p>
+        <h2>
+          <span lang="en">Out of the way, <em class="gold">until you need it.</em></span>
+          <span lang="it">Non si vede, <em class="gold">finché non ti serve.</em></span>
+        </h2>
+      </div>
+      <div class="features">
+        <div class="feature reveal">
+          <span class="mark">一</span>
+          <h3><span lang="en">One shortcut, every window</span><span lang="it">Una scorciatoia, tutte le finestre</span></h3>
+          <p>
+            <span lang="en">A small pill appears at the bottom of the screen while you talk. It never steals focus, so the text goes back to the window you were in. <kbd>Esc</kbd> cancels.</span>
+            <span lang="it">Mentre parli compare una piccola pillola in basso. Non prende mai il fuoco, quindi il testo torna nella finestra in cui eri. <kbd>Esc</kbd> annulla.</span>
+          </p>
+        </div>
+        <div class="feature reveal">
+          <span class="mark">二</span>
+          <h3><span lang="en">Tap, or hold to talk</span><span lang="it">Un tocco, o tieni premuto</span></h3>
+          <p>
+            <span lang="en">Tap the shortcut to start and stop, or hold it down and let go when you're done. No keyboard hook: Sheng only watches its own keys while it's listening.</span>
+            <span lang="it">Tocca la scorciatoia per iniziare e finire, oppure tienila premuta e lasciala quando hai finito. Nessun hook della tastiera: Sheng guarda solo i suoi tasti, e solo mentre ascolta.</span>
+          </p>
+        </div>
+        <div class="feature reveal">
+          <span class="mark">三</span>
+          <h3><span lang="en">Text where you were typing</span><span lang="it">Il testo dove stavi scrivendo</span></h3>
+          <p>
+            <span lang="en">Pasted straight into the active window, then your clipboard is put back as it was. Or, if you prefer, only copied to the clipboard.</span>
+            <span lang="it">Incollato direttamente nella finestra attiva, poi gli appunti tornano com'erano. Oppure, se preferisci, solo copiato negli appunti.</span>
+          </p>
+        </div>
+        <div class="feature reveal">
+          <span class="mark">四</span>
+          <h3><span lang="en">An archive you can search</span><span lang="it">Un archivio da cercare</span></h3>
+          <p>
+            <span lang="en">Every dictation is kept: search it, fix a word, copy it again, delete it, or export everything as Markdown or plain text.</span>
+            <span lang="it">Ogni dettatura resta: la cerchi, correggi una parola, la ricopi, la elimini, o esporti tutto in Markdown o testo.</span>
+          </p>
+        </div>
+        <div class="feature reveal">
+          <span class="mark">五</span>
+          <h3><span lang="en">Words written your way</span><span lang="it">Le parole scritte come vuoi</span></h3>
+          <p>
+            <span lang="en">A glossary teaches the model names and jargon, and Sheng cleans up the text for you: no "uhm", no doubled words, no phrases invented over silence.</span>
+            <span lang="it">Un glossario insegna al modello nomi e termini tecnici, e Sheng ripulisce il testo: niente "ehm", niente parole ripetute, niente frasi inventate sui silenzi.</span>
+          </p>
+        </div>
+        <div class="feature reveal">
+          <span class="mark">六</span>
+          <h3><span lang="en">Private by default</span><span lang="it">Privata in partenza</span></h3>
+          <p>
+            <span lang="en">Audio is never written to disk. You choose how long texts are kept: forever, 30, 7 or 1 day, or not at all. On Windows, dictations stay out of clipboard history and the cloud clipboard.</span>
+            <span lang="it">L'audio non viene mai scritto su disco. Scegli tu quanto tenere i testi: per sempre, 30, 7 o 1 giorno, o per niente. Su Windows le dettature restano fuori dalla cronologia e dal cloud degli appunti.</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section id="engine">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow"><span lang="en">The engine</span><span lang="it">Il motore</span></p>
+        <h2>
+          <span lang="en">Whisper, on the chip <em class="gold">you already have.</em></span>
+          <span lang="it">Whisper, sul chip <em class="gold">che hai già.</em></span>
+        </h2>
+        <p class="lead" style="max-width:60ch">
+          <span lang="en">Sheng looks at your PC (CPU, RAM, GPU and NPU) and tells you where the model will run best. You pick, it downloads the model once, and from then on it works offline.</span>
+          <span lang="it">Sheng guarda il tuo PC (CPU, RAM, GPU e NPU) e ti dice dove il modello girerà meglio. Tu scegli, lui scarica il modello una volta e da lì funziona anche offline.</span>
+        </p>
+      </div>
+
+      <div class="table-wrap reveal">
+        <table>
+          <thead>
+            <tr>
+              <th><span lang="en">Runs on</span><span lang="it">Dove gira</span></th>
+              <th><span lang="en">Engine</span><span lang="it">Motore</span></th>
+              <th><span lang="en">Good for</span><span lang="it">Adatto a</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>NPU</td>
+              <td>OpenVINO</td>
+              <td><span lang="en">Intel Core Ultra laptops and desktops: quiet, low power, GPU left free</span><span lang="it">PC con Intel Core Ultra: silenziosa, consuma poco, lascia libera la GPU</span></td>
+            </tr>
+            <tr>
+              <td>GPU</td>
+              <td>whisper.cpp · Vulkan</td>
+              <td><span lang="en">NVIDIA, AMD and Intel graphics: the fastest option</span><span lang="it">Schede NVIDIA, AMD e Intel: la più veloce</span></td>
+            </tr>
+            <tr>
+              <td>CPU</td>
+              <td>whisper.cpp / OpenVINO</td>
+              <td><span lang="en">Any computer; on Intel CPUs OpenVINO is about 6× faster</span><span lang="it">Qualsiasi computer; su CPU Intel OpenVINO è circa 6 volte più veloce</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="muted reveal" style="margin-top:20px;font-size:15px">
+        <span lang="en">Two models, <strong>Light</strong> (small) and <strong>Precise</strong> (large-v3-turbo), each in three precisions. Multilingual. The engine runs in its own process: if it stops, Sheng doesn't, and closing it really frees the memory.</span>
+        <span lang="it">Due modelli, <strong>Leggero</strong> (small) e <strong>Preciso</strong> (large-v3-turbo), ognuno in tre precisioni. Multilingua. Il motore gira in un processo a parte: se si ferma, Sheng resta in piedi, e chiuderlo libera davvero la memoria.</span>
+      </p>
+
+      <div class="stats" style="margin-top:56px">
+        <div class="stat reveal">
+          <span class="big gold">~1 s</span>
+          <p><span lang="en">after you stop, 55 seconds of dictation are ready. Sheng transcribes while you talk.</span><span lang="it">dopo lo stop sono pronti 55 secondi di dettatura. Sheng trascrive mentre parli.</span></p>
+        </div>
+        <div class="stat reveal">
+          <span class="big gold">0.4 s</span>
+          <p><span lang="en">to transcribe 12 seconds of Italian on the GPU (0.75 s on the NPU).</span><span lang="it">per trascrivere 12 secondi di italiano sulla GPU (0,75 s sull'NPU).</span></p>
+        </div>
+        <div class="stat reveal">
+          <span class="big gold">~6 min</span>
+          <p><span lang="en">for a 2 h 10 min lecture on the NPU, with the Light model.</span><span lang="it">per una lezione di 2 h 10 min sull'NPU, con il modello leggero.</span></p>
+        </div>
+      </div>
+      <p class="muted" style="margin-top:16px;font-size:13px">
+        <span lang="en">Measured on an Intel Core Ultra 9 285K with NPU and an RTX 5080.</span>
+        <span lang="it">Misurato su Intel Core Ultra 9 285K con NPU e RTX 5080.</span>
+      </p>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section>
+    <div class="wrap split">
+      <div class="section-head reveal" style="margin:0">
+        <p class="eyebrow"><span lang="en">Files</span><span lang="it">File</span></p>
+        <h2>
+          <span lang="en">Hours of lecture, <em class="gold">ready to study.</em></span>
+          <span lang="it">Ore di lezione, <em class="gold">pronte da studiare.</em></span>
+        </h2>
+        <p class="lead">
+          <span lang="en">Drop in an mp3, mp4, m4a, wav, mkv or mov. Sheng reads it piece by piece, so even recordings hours long work.</span>
+          <span lang="it">Trascina un mp3, mp4, m4a, wav, mkv o mov. Sheng lo legge a pezzi, quindi vanno anche registrazioni di ore.</span>
+        </p>
+      </div>
+      <ol class="steps reveal">
+        <li><span><strong><span lang="en">Timestamped text.</span><span lang="it">Testo con i tempi.</span></strong> <span lang="en">Cut on the silences, with the minute each passage starts.</span><span lang="it">Tagliato sui silenzi, con il minuto in cui inizia ogni passaggio.</span></span></li>
+        <li><span><strong><span lang="en">Export.</span><span lang="it">Esporta.</span></strong> <span lang="en">TXT, SRT subtitles or Markdown. The original file stays where it is.</span><span lang="it">TXT, sottotitoli SRT o Markdown. Il file originale resta dov'è.</span></span></li>
+        <li><span><strong><span lang="en">Lecture notes.</span><span lang="it">Appunti della lezione.</span></strong> <span lang="en">Topics, key points with formulas, what to remember for the exam and review questions, written by the AI you pick: Claude Code, Codex, or Ollama fully offline.</span><span lang="it">Argomenti, punti principali con le formule, cose da ricordare per l'esame e domande di ripasso, scritti dall'IA che scegli: Claude Code, Codex o Ollama, tutto in locale.</span></span></li>
+      </ol>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section>
+    <div class="wrap reveal">
+      <p class="eyebrow" style="margin-bottom:20px"><span lang="en">Works with</span><span lang="it">Funziona con</span></p>
+      <a class="next-app" href="/xue/">
+        <span class="l">
+          <img src="/assets/xue.png" alt="" width="56" height="56">
+          <span>
+            <h3 class="gold">Xue</h3>
+            <span class="muted"><span lang="en">Send a lecture video from Xue: the transcript and the summary come back into the course.</span><span lang="it">Manda una videolezione da Xue: trascrizione e riassunto tornano nel corso.</span></span>
+          </span>
+        </span>
+        <span class="more" style="color:var(--accent);font-weight:600">→</span>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Furly · furly.dev</span>
+    <nav aria-label="Footer">
+      <a href="/">Furly</a>
+      <a href="/xue/">Xue</a>
+      <a href="mailto:mattia@furly.dev"><span lang="en">Contact</span><span lang="it">Contatti</span></a>
+    </nav>
+  </div>
+</footer>
+
+<div class="egg" id="egg" role="dialog" aria-label="Easter egg">
+  <blockquote>
+    <span class="dragon gold">龍</span>
+    <span class="gold">You met me at a very Chinese time in my life.</span>
+  </blockquote>
+</div>
+
+<script src="/assets/site.js" defer></script>
+</body>
+</html>
